@@ -16,10 +16,6 @@
 # inherit from common matisse
 include device/samsung/matisse-common/BoardConfigCommon.mk
 
-# Shims
-TARGET_LD_SHIM_LIBS += \
-        /system/vendor/lib/libmmcamera_imx175.so|libshim_imx175.so
-
 # Kernel
 TARGET_KERNEL_CONFIG := lineage_matisselte_defconfig
 
