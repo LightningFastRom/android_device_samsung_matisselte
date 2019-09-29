@@ -21,11 +21,11 @@ TARGET_LD_SHIM_LIBS += \
         /system/vendor/lib/libmmcamera_imx175.so|libshim_imx175.so
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineage_matisse3g_defconfig
+TARGET_KERNEL_CONFIG := lineage_matisselte_defconfig
 
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_msm8226
-TARGET_LIBINIT_MSM8226_DEFINES_FILE := device/samsung/matisse3g/init/init_matisse.cpp
+TARGET_LIBINIT_MSM8226_DEFINES_FILE := device/samsung/matisselte/init/init_matisse.cpp
 
 # NFC
 # include $(COMMON_PATH)/nfc/pn547/board.mk
@@ -34,4 +34,4 @@ TARGET_LIBINIT_MSM8226_DEFINES_FILE := device/samsung/matisse3g/init/init_matiss
 include $(COMMON_PATH)/radio/single/board.mk
 
 # inherit from the proprietary version
--include vendor/samsung/matisse3g/BoardConfigVendor.mk
+-include vendor/samsung/matisselte/BoardConfigVendor.mk

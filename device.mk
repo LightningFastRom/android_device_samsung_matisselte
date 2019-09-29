@@ -18,7 +18,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/samsung/matisse3g/matisse3g-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/matisselte/matisselte-vendor.mk)
 
 # Camera
 PRODUCT_PACKAGES += \

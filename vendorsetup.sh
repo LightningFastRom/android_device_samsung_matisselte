@@ -1,2 +1,2 @@
-add_lunch_combo lineage_matisse3g-eng
-add_lunch_combo lineage_matisse3g-userdebug
+add_lunch_combo lineage_matisselte-eng
+add_lunch_combo lineage_matisselte-userdebug
