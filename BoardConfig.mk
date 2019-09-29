@@ -19,13 +19,6 @@ include device/samsung/matisse-common/BoardConfigCommon.mk
 # Kernel
 TARGET_KERNEL_CONFIG := lineage_matisselte_defconfig
 
-# Init
-TARGET_INIT_VENDOR_LIB := libinit_msm8226
-TARGET_LIBINIT_MSM8226_DEFINES_FILE := device/samsung/matisselte/init/init_matisse.cpp
-
-# NFC
-# include $(COMMON_PATH)/nfc/pn547/board.mk
-
 # Radio/RIL
 include $(COMMON_PATH)/radio/single/board.mk
 
