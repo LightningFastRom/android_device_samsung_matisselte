@@ -27,9 +27,6 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1866465280
 # Kernel
 TARGET_KERNEL_CONFIG := lineage_matisselte_defconfig
 
-# Radio Properties
-TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
-
 # Radio
 BOARD_PROVIDES_LIBRIL := true
 TARGET_RIL_VARIANT := caf
