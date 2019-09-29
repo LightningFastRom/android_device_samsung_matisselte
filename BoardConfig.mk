@@ -16,8 +16,17 @@
 # inherit from common matisse
 include device/samsung/matisse-common/BoardConfigCommon.mk
 
+TARGET_PROCESS_SDK_VERSION_OVERRIDE += \
+    /system/vendor/bin/hw/rild=27
 # Kernel
 TARGET_KERNEL_CONFIG := lineage_matisselte_defconfig
+
+# Radio Properties
+TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
+
+# Radio
+BOARD_PROVIDES_LIBRIL := true
+TARGET_RIL_VARIANT := caf
 
 # Radio/RIL
 include $(COMMON_PATH)/radio/single/board.mk
