@@ -18,6 +18,9 @@ include device/samsung/matisse-common/BoardConfigCommon.mk
 
 TARGET_PROCESS_SDK_VERSION_OVERRIDE += \
     /system/vendor/bin/hw/rild=27
+
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1866465280
+
 # Kernel
 TARGET_KERNEL_CONFIG := lineage_matisselte_defconfig
 
