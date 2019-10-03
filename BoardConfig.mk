@@ -14,7 +14,7 @@
 # limitations under the License.
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := matisselte, matisseltetmo, matisseltexx
+TARGET_OTA_ASSERT_DEVICE := matisselte,matisseltetmo,matisseltexx
 
 # inherit from common matisse
 include device/samsung/matisse-common/BoardConfigCommon.mk
