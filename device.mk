@@ -32,6 +32,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libsecnativefeature
 
+# Ramdisk
+PRODUCT_PACKAGES += \
+    init.ril.sh
+
 # common matisse
 $(call inherit-product, device/samsung/matisse-common/matisse.mk)
 
